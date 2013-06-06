@@ -13,7 +13,9 @@
 
 
     <http auto-config="true">
+    	<intercept-url pattern="/login.html" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
     	<intercept-url pattern="/*" access="ROLE_USER"/>
+    	<form-login login-page="/login.html"/>
     </http>
     
     <beans:bean class="org.springframework.security.authentication.encoding.ShaPasswordEncoder" id="passwordEncoder"/>
