@@ -14,3 +14,5 @@ Thanks to @michaelisvy. This Application is benefited from Spring-petclinic.
   git clone https://github.com/Arefa/tamis.git
 	mvn tomcat7:run
 ```
+## Statements
+Later I want to integrate reports[ie. jasperreports] and charts[ie. amcharts] with it and may be maps[ie. Baidu map]. I hope this will not take a long time.
